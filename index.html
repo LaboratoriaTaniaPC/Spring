@@ -1,0 +1,118 @@
+<!-- 
+		 Exercise:  Manejo de Bootstrap
+		 @uthor: Tania Patiño
+		 Date:  17-08-16
+		 Hour: 14:53 p.m.
+		 Version: 1.0
+
+-->
+<!--Inicio de documento HTML-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Titulo del sitio web-->
+		<title>Spring</title>
+		<!--Para los acentos-->
+		<meta charset="utf-8">
+		<!--Lo del dispositivo movil-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Lo de bootastrap llamando  css/bootstrap.min.css -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <link rel="stylesheet" href="css/main.css">
+		<!--Pequeños script- de jquery.min.js  y bootstrap.min.js-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<!--Inicia estructura de cuerpo del sitio-->
+	<body>
+	<!--La barra-->
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!--Imagen del logo del lado izquierdo -->
+						<img src="image/header-logo.png" style="width:100%">
+					</div>
+					<!--Menu de arriba de la barra-->
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">LIFESTYLE</a></li>
+							<li><a href="#">FLOWERS</a></li>
+							<li><a href="#">FASHION</a></li>
+							<li><a href="#">NEWS</a></li>
+							<li><a href="#">FEATURES</a></li>
+						</ul> 
+					</div>
+				</div>
+			</nav>
+		<!--Texto encima de Spring Came-->
+			<div class="jumbotron">
+				<div class="container text-center">	
+					<img src="image/header-image.jpg" style="width:100%">
+					<h1>Spring Came</h1>
+					<p>Life</p>
+					<p>Amanda Ray</p>
+					<p>10th March 2015 </p>   
+				</div>
+			</div>
+		</header>
+		<section>
+		<!--Las imagenes de arriba-->  
+			<div class="container-fluid bg-3 text-center">
+				<div class="row espacio-abajo">
+					<div class="col-md-4 col-xs-12">
+						<img src="image/image7.jpg" class="img-responsive" style="width:100%" alt="Florecitas">
+						<p>Floral fragance</p>
+						<p>Life Amanda Ray 10 th March 2015</p>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<img src="image/image3.jpg" class="img-responsive" style="width:100%" alt="Florecitas">
+						<p>Now with Flatness</p>
+						<p>New Amanda Ray  28 th July 2015</p>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<img src="image/header-image.jpg" class="img-responsive" style="width:100%" alt="Florecitas">
+						<p>Garden Flower</p>
+						<p>Life Amanda Ray 28 th October 2015</p>
+					</div>
+				</div>
+			</div>
+			<!--Las imagenes de abajo-->
+			<div class="container-fluid bg-3 text-center">
+				<div class="row">
+					 <div class="col-md-7 col-xs-12">
+						<img src="image/image4.jpg" class="img-responsive" style="width:100%" alt="Image">
+						<p>Now with Flatness</p>
+						<p>News Amanda Ray 28 th July 2015</p>
+						<p>La jardinería es el arte y la práctica de cultivar los jardines. Consiste en cultivar, tanto en un espacio abierto como cerrado, flores (arriates), árboles, hortalizas, o verduras (huertas), ya sea por estética, por gusto o para la alimentación, y en cuya consecución el objetivo económico es algo secundario.</p>
+					</div>
+					<div class="col-md-5 hidden-xs">
+						<img src="image/amanda.jpg" class="img-responsive" style="width:100%" alt="Image">
+						<p>Amanda Ray</p>
+						<p>Tiene un transtorno bipolar, también conocido como la depresión maníaca, es una enfermedad mental que incluye episodios serios de la manía y la depresión. La enfermedad causa cambios drásticos de altos y bajas de temperamento, de sentirse extremadamente deprimido y sin esperanza, con períodos de temperamento normal entre los cambios. Pobre de Amanda!! Triste, triste.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+			<!--El video-->
+		<section>
+			<div class="row">
+				<div class="col-md-7 col-xs-12">
+					<iframe src="https://www.youtube.com/embed/NVw3DnN9WoA" frameborder="0" width="80%" height="200%"> </iframe>
+				</div>
+			</div>
+		</section>
+		<!--El Footer-->
+		<footer>
+			<div class=" container-fluid text-center col-sm-12">     
+				<p>All Rights Reserved 2016 CDMX.</p>
+			</div>	 
+		</footer>
+	</body>
+</html>
+
